@@ -14,9 +14,9 @@
     <h3>Don't be a prick, leave a good tip!</h3>
     <form>
       <p>How much was your bill?</p>
-      $<input id="billAmount" type="text" placeholder="Bill Amount">
+      $<input id="bill-amount" type="text" placeholder="Bill Amount">
       <p>Rate your service:</p>
-      <select name="rate" id="rateService">
+      <select name="rate" id="rate-service">
         <option value="0.3">30% - Exceptional</option>
         <option value="0.2">20% - Really Good</option>
         <option value="0.15">15% - Average</option>
@@ -25,6 +25,10 @@
       </select>
       <button type="button" id="calculate">Calculate Tip</button>
     </form>
+    <div class="tip">
+      <h3>Tip Amount</h3>
+      <h1>$<span class="tip-input">0.00</span></h1>
+    </div>
   </div>
 </body>
 </html>
