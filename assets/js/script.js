@@ -11,17 +11,3 @@ button.addEventListener(
 
   }
 );
-
-
-
-// const button = document.getElementById('submit')
-
-// button.addEventListener(
-//   "click", () => {
-//     var meal = document.getElementById('mCost').value;
-//     var mealCalc = meal * .2;
-//     var total=mealCalc.toFixed(2);
-    
-//     document.getElementById('total').innerHTML= "Total Bill: $" +total;
-//   }
-// )
