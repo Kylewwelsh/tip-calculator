@@ -9,20 +9,22 @@
   <title>Tip Calculator</title>
 </head>
 <body>
-  <div class="container">
-    <h1>Tip Calculator!</h1>
-    <h3>Don't be a prick, leave a good tip!</h3>
-    <form>
-      <p>How much was your bill?</p>
-      $<input id="bill-amount" type="text" placeholder="Bill Amount">
-      <p>Choose your Tip Percentage:</p>
-      <input type="text" id="tip-percent" placeholder="Tip Percentage">%
+  <div class="grid-container">
+    <div class="calc-container">
+      <h1>Tip Calculator!</h1>
+      <h2>Don't be a prick, leave a good tip!</h2>
+      <form>
+        <p>How much was your bill?</p>
+        <input id="bill-amount" type="text" placeholder="Bill Amount">
+        <p>Choose your Tip Percentage:</p>
+        <input type="text" id="tip-percent" placeholder="Tip Percentage">
+      </form>
       <button type="button" id="calculate">Calculate Tip</button>
-    </form>
-    <div class="tip-input">
-      <h3>Tip Amount</h3>
-      <h1>$<span id="tip-total">0.00</span></h1>
+      <div class="tip-input">
+        <h2>Tip Amount</h2>
+        <h1>$<span id="tip-total">0.00</span></h1>
+      </div>
     </div>
-  </div>
+</div>
 </body>
 </html>
