@@ -15,14 +15,8 @@
     <form>
       <p>How much was your bill?</p>
       $<input id="bill-amount" type="text" placeholder="Bill Amount">
-      <p>Rate your service:</p>
-      <select name="rate" id="tip-rating">
-        <option value="0.3">30% - Exceptional</option>
-        <option value="0.2">20% - Really Good</option>
-        <option value="0.15">15% - Average</option>
-        <option value="0.1">10% - Not Great</option>
-        <option value="0.05">5% - Just Awful</option>
-      </select>
+      <p>Choose your Tip Percentage:</p>
+      <input type="text" id="tip-percent" placeholder="Tip Percentage">%
       <button type="button" id="calculate">Calculate Tip</button>
     </form>
     <div class="tip-input">
